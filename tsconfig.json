@@ -4,12 +4,6 @@
     "module": "es2022",
     "rootDir": "./src/",
     "moduleResolution": "node",
-    "baseUrl": "./src",
-    "paths": {
-      "@classes": ["/classes/*"],
-      "@events": ["/events/*"],
-      "@commands": ["/commands/*"]
-    },
     "outDir": "./dist",
     "removeComments": true,
     "newLine": "crlf",
