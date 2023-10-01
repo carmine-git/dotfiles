@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2022",
+    "rootDir": "./src/",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@classes": ["/classes/*"],
+      "@events": ["/events/*"],
+      "@commands": ["/commands/*"]
+    },
+    "outDir": "./dist",
+    "removeComments": true,
+    "newLine": "crlf",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true
+  }
+}
